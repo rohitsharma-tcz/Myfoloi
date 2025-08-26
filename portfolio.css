@@ -1,5 +1,7 @@
 /* Portfolio CSS - Professional Implementation */
 
+/* Portfolio CSS - Professional Implementation */
+
 /* Import Design System Variables */
 :root {
   /* From globals.css */
@@ -256,9 +258,9 @@ p {
   top: 0;
   left: 0;
   right: 0;
-  z-index: var(--z-header); /* z-index: 1000 */
+  z-index: var(--z-header);
   height: var(--header-height);
-  min-height: var(--header-height); /* Prevents collapsing on load */
+  min-height: var(--header-height);
   background-color: transparent;
   backdrop-filter: blur(0px);
   border-bottom: 1px solid transparent;
@@ -266,14 +268,14 @@ p {
 }
 
 .header.scrolled {
-  background-color: rgba(255, 255, 255, 0.85); /* Stable rgba color */
+  background-color: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(10px);
   border-bottom-color: var(--border);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
 .dark-theme .header.scrolled {
-    background-color: rgba(37, 37, 37, 0.85); /* Stable rgba for dark mode */
+    background-color: rgba(37, 37, 37, 0.85);
 }
 
 .nav-container {
@@ -411,7 +413,7 @@ body[data-theme="dark"] .moon-icon {
   align-items: center;
   justify-content: center;
   gap: 4px;
-  z-index: calc(var(--z-header) + 1); /* Ensures toggle button is always on top */
+  z-index: 1501; /* Must be higher than the menu overlay */
 }
 
 .hamburger-line {
@@ -434,31 +436,44 @@ body[data-theme="dark"] .moon-icon {
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
-/* Redesigned Mobile Navigation Menu */
+/* Mobile Navigation Menu -- FINAL POLISHED VERSION */
 .mobile-nav {
   position: fixed;
-  top: var(--header-height);
+  top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
-  background: var(--background);
-  transform: translateY(-100%);
+  bottom: 40;
+  z-index: 1500; /* Make it the TOPMOST element */
+
+  /* NEW: Semi-transparent background with blur */
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+
   opacity: 0;
-  visibility: hidden;
-  transition: transform 0.4s var(--animation-easing), opacity 0.4s ease, visibility 0s 0.4s;
-  z-index: calc(var(--z-header) - 1);
-  overflow-y: auto;
+  pointer-events: none;
+  /* A simple fade is cleaner for this UI */
+  transition: opacity 0.3s ease-out; 
+}
+
+/* NEW: Rule for dark theme background */
+.dark-theme .mobile-nav {
+  background-color: rgba(25, 25, 25, 0.85);
 }
 
 .mobile-nav.open {
-  transform: translateY(0);
   opacity: 1;
-  visibility: visible;
-  transition: transform 0.4s var(--animation-easing), opacity 0.4s ease, visibility 0s 0s;
+  pointer-events: auto;
 }
 
 .mobile-nav-content {
-  padding: var(--space-2xl) var(--space-md);
+  /* This now handles the centering of the links */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: var(--space-xl);
 }
 
 .mobile-nav-menu {
@@ -469,17 +484,14 @@ body[data-theme="dark"] .moon-icon {
 
 .mobile-nav-link {
   display: block;
-  padding: var(--space-md) 0;
   color: var(--muted-foreground);
   text-decoration: none;
-  font-size: var(--text-lg);
   font-weight: var(--font-weight-medium);
   transition: color 0.3s var(--animation-easing);
-  border-bottom: 1px solid var(--border);
-}
-
-.mobile-nav-link:last-child {
-    border-bottom: none;
+  font-size: clamp(1.5rem, 5vw, 2rem); /* Bolder, responsive font size */
+  padding: var(--space-sm) 0;
+  border-bottom: none; /* Remove the horizontal lines */
+  text-align: center;
 }
 
 .mobile-nav-link:hover,
@@ -1661,14 +1673,13 @@ body[data-theme="dark"] .moon-icon {
   z-index: var(--z-modal);
   padding: var(--space-lg);
   opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.3s ease, visibility 0s 0.3s;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
 }
 
 .modal-overlay.open {
   opacity: 1;
-  visibility: visible;
-  transition: opacity 0.3s ease, visibility 0s 0s;
+  pointer-events: auto;
 }
 
 .modal-container {
