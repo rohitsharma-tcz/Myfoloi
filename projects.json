@@ -1,0 +1,110 @@
+[
+  {
+    "id": "1",
+    "title": "Enterprise Cloud Migration",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&fit=crop",
+    "duration": "18 months",
+    "teamSize": "15 members",
+    "budget": "$2.5M",
+    "status": "Completed",
+    "tags": ["AWS", "Agile", "Migration", "Enterprise"],
+    "problem": "The client's legacy infrastructure was becoming increasingly expensive to maintain and lacked scalability for future growth.",
+    "solution": "Implemented a phased cloud migration strategy using AWS services, ensuring zero downtime and improved performance.",
+    "results": [
+      "Reduced infrastructure costs by 35%",
+      "Improved system performance by 60%",
+      "Achieved 99.9% uptime",
+      "Completed 2 months ahead of schedule"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Digital Banking Platform",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+    "duration": "12 months",
+    "teamSize": "20 members",
+    "budget": "$3.2M",
+    "status": "Completed",
+    "tags": ["FinTech", "Mobile", "Scrum", "Security"],
+    "problem": "Traditional banking processes were slow and customer satisfaction was declining due to outdated digital interfaces.",
+    "solution": "Developed a comprehensive digital banking platform with advanced security features and intuitive user experience.",
+    "results": [
+      "Increased customer satisfaction by 45%",
+      "Reduced transaction processing time by 70%",
+      "Enhanced security with zero breaches",
+      "Won 'Best Digital Banking App' award"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "ERP System Implementation",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
+    "duration": "24 months",
+    "teamSize": "25 members",
+    "budget": "$4.1M",
+    "status": "Completed",
+    "tags": ["SAP", "ERP", "Integration", "Training"],
+    "problem": "Disconnected systems across departments led to data silos and inefficient business processes.",
+    "solution": "Implemented SAP ERP with custom modules, comprehensive training programs, and phased rollout strategy.",
+    "results": [
+      "Integrated 15 departments seamlessly",
+      "Improved data accuracy by 90%",
+      "Reduced manual processes by 80%",
+      "Achieved ROI within 18 months"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "IoT Analytics Platform",
+    "image": "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=600&h=400&fit=crop",
+    "duration": "15 months",
+    "teamSize": "12 members",
+    "budget": "$1.8M",
+    "status": "In Progress",
+    "tags": ["IoT", "Analytics", "Manufacturing", "Real-time"],
+    "problem": "Manufacturing operations lacked real-time visibility into equipment performance and predictive maintenance capabilities.",
+    "solution": "Built an IoT platform that collects, processes, and analyzes data from manufacturing equipment in real-time.",
+    "results": [
+      "Connected 500+ IoT devices",
+      "Reduced equipment downtime by 40%",
+      "Improved operational efficiency by 25%",
+      "Enabled predictive maintenance"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Cybersecurity Framework",
+    "image": "https://images.unsplash.com/photo-1563206767-5b18f218e8de?w=600&h=400&fit=crop",
+    "duration": "9 months",
+    "teamSize": "8 members",
+    "budget": "$950K",
+    "status": "Completed",
+    "tags": ["Security", "Compliance", "Risk Management", "GDPR"],
+    "problem": "Increasing cyber threats and regulatory requirements demanded a robust security framework.",
+    "solution": "Implemented multi-layered security architecture with continuous monitoring and compliance automation.",
+    "results": [
+      "Achieved 100% GDPR compliance",
+      "Reduced security incidents by 85%",
+      "Implemented 24/7 monitoring",
+      "Passed all security audits"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "AI-Powered CRM System",
+    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop",
+    "duration": "10 months",
+    "teamSize": "14 members",
+    "budget": "$1.2M",
+    "status": "Completed",
+    "tags": ["AI/ML", "CRM", "Automation", "Analytics"],
+    "problem": "Sales team struggled with lead qualification and customer insights were limited by manual processes.",
+    "solution": "Integrated AI algorithms for lead scoring, customer behavior prediction, and automated workflow optimization.",
+    "results": [
+      "Improved lead conversion by 55%",
+      "Automated 70% of routine tasks",
+      "Enhanced customer insights",
+      "Increased sales productivity by 40%"
+    ]
+  }
+]

@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rohit Sharma - Senior IT Project Manager specializing in Agile methodologies, cloud migration, and digital transformation projects.">
+    <meta name="keywords" content="IT Project Manager, Agile, Scrum, PMP, Cloud Migration, Digital Transformation">
+    <meta name="author" content="Rohit Sharma">
+    
+    <meta property="og:title" content="Rohit Sharma - IT Project Manager Portfolio">
+    <meta property="og:description" content="Experienced IT Project Manager with 8+ years delivering complex technical projects with precision & agility.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rohitsharma.dev">
+    
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E👨‍💻%3C/text%3E%3C/svg%3E">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="portfolio.css">
+    
+    <title>Rohit Sharma - IT Project Manager Portfolio</title>
+</head>
+<body class="light-theme" data-theme="light">
+    <a href="#main-content" class="skip-nav">Skip to main content</a>
+    
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner">
+            <div class="spinner"></div>
+            <p>Loading Portfolio...</p>
+        </div>
+    </div>
+
+    <header class="header" id="header" role="banner">
+        <nav class="nav-container" role="navigation" aria-label="Main navigation">
+            <div class="nav-brand">
+                <div class="logo" aria-label="Rohit Sharma">
+                    <span class="logo-icon">RS</span>
+                </div>
+                <span class="brand-name">Rohit Sharma</span>
+            </div>
+
+            <ul class="nav-menu desktop-nav" role="menubar">
+                <li role="none"><a href="#home" class="nav-link" role="menuitem">Home</a></li>
+                <li role="none"><a href="#about" class="nav-link" role="menuitem">About</a></li>
+                <li role="none"><a href="#skills" class="nav-link" role="menuitem">Skills</a></li>
+                <li role="none"><a href="#projects" class="nav-link" role="menuitem">Projects</a></li>
+                <li role="none"><a href="#resume" class="nav-link" role="menuitem">Resume</a></li>
+                <li role="none"><a href="#contact" class="nav-link" role="menuitem">Contact</a></li>
+            </ul>
+
+            <div class="nav-controls">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">
+                    <span class="theme-icon sun-icon" aria-hidden="true">☀️</span>
+                    <span class="theme-icon moon-icon" aria-hidden="true">🌙</span>
+                </button>
+                
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle mobile menu" aria-expanded="false">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+
+            <div class="mobile-nav" id="mobileNav" role="dialog" aria-modal="true" aria-labelledby="mobile-nav-title">
+                <div class="mobile-nav-content">
+                    <h2 id="mobile-nav-title" class="sr-only">Navigation Menu</h2>
+                    <ul class="mobile-nav-menu" role="menu">
+                        <li role="none"><a href="#home" class="mobile-nav-link" role="menuitem">Home</a></li>
+                        <li role="none"><a href="#about" class="mobile-nav-link" role="menuitem">About</a></li>
+                        <li role="none"><a href="#skills" class="mobile-nav-link" role="menuitem">Skills</a></li>
+                        <li role="none"><a href="#projects" class="mobile-nav-link" role="menuitem">Projects</a></li>
+                        <li role="none"><a href="#resume" class="mobile-nav-link" role="menuitem">Resume</a></li>
+                        <li role="none"><a href="#contact" class="mobile-nav-link" role="menuitem">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content" role="main">
+        <section class="hero-section" id="home" aria-labelledby="hero-title">
+            <div class="hero-background" aria-hidden="true"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <div class="hero-badge animate-fade-in" data-animation-delay="100">
+                            <span class="badge-emoji" aria-hidden="true">👋</span>
+                            <span>Hello, I'm Rohit Sharma</span>
+                        </div>
+                        
+                        <h1 id="hero-title" class="hero-title animate-fade-in" data-animation-delay="200">
+                            IT Project Manager
+                        </h1>
+                        
+                        <p class="hero-subtitle animate-fade-in" data-animation-delay="300">
+                            Delivering complex projects with precision & agility
+                        </p>
+                        
+                        <p class="hero-description animate-fade-in" data-animation-delay="400">
+                            Experienced in Agile methodologies, risk management, and leading cross-functional teams to deliver exceptional results on time and within budget.
+                        </p>
+                        
+                        <div class="hero-actions animate-fade-in" data-animation-delay="500">
+                            <a href="#projects" class="btn btn-primary btn-lg">
+                                <span>View Projects</span>
+                                <span class="btn-icon" aria-hidden="true">⤵️</span>
+                            </a>
+                            <a href="#contact" class="btn btn-outline btn-lg">
+                                <span>Get In Touch</span>
+                                <span class="btn-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM252.8 8c-138.7 0-244.8 105.3-244.8 244 0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1 100-33.2 167.8-128.1 167.8-239 0-138.7-112.5-244-251.2-244zM105.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></i></span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-image animate-fade-in" data-animation-delay="400">
+                        <div class="image-container">
+                            <img src="https://i.ibb.co/zh1JRwbT/profile.png?w=500&h=500&fit=crop&crop=face" 
+                                 alt="Rohit Sharma, IT Project Manager" 
+                                 class="profile-image"
+                                 width="500" height="500"
+                                 loading="eager">
+                            <div class="image-glow" aria-hidden="true"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section section" id="about" aria-labelledby="about-title">
+            <div class="container">
+                <header class="section-header animate-on-scroll">
+                    <span class="section-badge">About Me</span>
+                    <h2 id="about-title" class="section-title">Passionate About Delivering Excellence</h2>
+                    <p class="section-description">
+                        With over 8 years of experience in IT project management, I specialize in leading complex technical projects from conception to completion. My expertise spans Agile methodologies, risk management, stakeholder communication, and team leadership.
+                    </p>
+                </header>
+
+                <div class="achievements-grid animate-on-scroll">
+                    <article class="achievement-card">
+                        <div class="achievement-icon" aria-hidden="true">🏆</div>
+                        <h3 class="achievement-title">PMP Certified</h3>
+                        <p class="achievement-description">Project Management Professional certification holder</p>
+                    </article>
+                    
+                    <article class="achievement-card">
+                        <div class="achievement-icon" aria-hidden="true">👥</div>
+                        <h3 class="achievement-title">Team Leadership</h3>
+                        <p class="achievement-description">Led teams of 15+ professionals across multiple projects</p>
+                    </article>
+                    
+                    <article class="achievement-card">
+                        <div class="achievement-icon" aria-hidden="true">🎯</div>
+                        <h3 class="achievement-title">Success Rate</h3>
+                        <p class="achievement-description">98% project success rate with on-time delivery</p>
+                    </article>
+                    
+                    <article class="achievement-card">
+                        <div class="achievement-icon" aria-hidden="true">📅</div>
+                        <h3 class="achievement-title">Experience</h3>
+                        <p class="achievement-description">8+ years in IT project management</p>
+                    </article>
+                </div>
+                
+                <div class="timeline-section animate-on-scroll">
+                    <header class="timeline-header">
+                        <h3 class="timeline-title">Career Journey</h3>
+                        <p class="timeline-description">My professional evolution in IT project management</p>
+                    </header>
+                    
+                    <div class="timeline">
+                        <article class="timeline-item">
+                            <div class="timeline-content">
+                                <div class="timeline-badge">2024 - Present</div>
+                                <h4 class="timeline-role">Senior IT Project Manager</h4>
+                                <div class="timeline-company">TechCorp Solutions</div>
+                                <p class="timeline-desc">Leading digital transformation initiatives and managing enterprise-level projects.</p>
+                            </div>
+                        </article>
+                        
+                        <article class="timeline-item">
+                            <div class="timeline-content">
+                                <div class="timeline-badge">2021 - 2024</div>
+                                <h4 class="timeline-role">IT Project Manager</h4>
+                                <div class="timeline-company">Innovation Labs</div>
+                                <p class="timeline-desc">Managed agile development teams and delivered cloud migration projects.</p>
+                            </div>
+                        </article>
+                        
+                        <article class="timeline-item">
+                            <div class="timeline-content">
+                                <div class="timeline-badge">2019 - 2021</div>
+                                <h4 class="timeline-role">Project Coordinator</h4>
+                                <div class="timeline-company">Digital Systems Inc</div>
+                                <p class="timeline-desc">Coordinated cross-functional teams and implemented project management best practices.</p>
+                            </div>
+                        </article>
+                        
+                        <article class="timeline-item">
+                            <div class="timeline-content">
+                                <div class="timeline-badge">2016 - 2019</div>
+                                <h4 class="timeline-role">Business Analyst</h4>
+                                <div class="timeline-company">StartupTech</div>
+                                <p class="timeline-desc">Analyzed business requirements and facilitated stakeholder communication.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills-section section" id="skills" aria-labelledby="skills-title">
+            <div class="container">
+                <header class="section-header animate-on-scroll">
+                    <span class="section-badge">Skills & Expertise</span>
+                    <h2 id="skills-title" class="section-title">Technical Proficiency & Leadership Skills</h2>
+                    <p class="section-description">
+                        A comprehensive toolkit built through years of hands-on experience in managing complex IT projects 
+                        and leading high-performing teams.
+                    </p>
+                </header>
+
+                <div class="skills-grid animate-on-scroll">
+                    <article class="skill-category">
+                        <header class="category-header">
+                            <div class="category-icon" aria-hidden="true">⚙️</div>
+                            <h3 class="category-title">Methodologies & Frameworks</h3>
+                        </header>
+                        <div class="skills-list">
+                            <div class="skill-item" data-level="95">
+                                <div class="skill-info">
+                                    <span class="skill-name">🚀 Agile/Scrum</span>
+                                    <span class="skill-percentage">95%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="--progress: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-level="90">
+                                <div class="skill-info">
+                                    <span class="skill-name">📋 Kanban</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="--progress: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-level="85">
+                                <div class="skill-info">
+                                    <span class="skill-name">💧 Waterfall</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="--progress: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-level="80">
+                                <div class="skill-info">
+                                    <span class="skill-name">👑 PRINCE2</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="--progress: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="skill-category">
+                        <header class="category-header">
+                            <div class="category-icon" aria-hidden="true">💻</div>
+                            <h3 class="category-title">Tools & Technologies</h3>
+                        </header>
+                        <div class="skills-list">
+                            <div class="skill-item" data-level="95">
+                                <div class="skill-info">
+                                    <span class="skill-name">🔧 Jira</span>
+                                    <span class="skill-percentage">95%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="--progress: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-level="90">
+                                <div class="skill-info">
+                                    <span class="skill-name">📊 Microsoft Project</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="--progress: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-level="88">
+                                <div class="skill-info">
+                                    <span class="skill-name">📝 Confluence</span>
+                                    <span class="skill-percentage">88%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="--progress: 88%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-level="85">
+                                <div class="skill-info">
+                                    <span class="skill-name">☁️ Azure DevOps</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="--progress: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="skill-category">
+                        <header class="category-header">
+                            <div class="category-icon" aria-hidden="true">👥</div>
+                            <h3 class="category-title">Soft Skills</h3>
+                        </header>
+                        <div class="skills-list">
+                            <div class="skill-item" data-level="95">
+                                <div class="skill-info">
+                                    <span class="skill-name">👥 Leadership</span>
+                                    <span class="skill-percentage">95%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="--progress: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-level="98">
+                                <div class="skill-info">
+                                    <span class="skill-name">🗣️ Communication</span>
+                                    <span class="skill-percentage">98%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="--progress: 98%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-level="92">
+                                <div class="skill-info">
+                                    <span class="skill-name">🧩 Problem Solving</span>
+                                    <span class="skill-percentage">92%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="--progress: 92%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-level="88">
+                                <div class="skill-info">
+                                    <span class="skill-name">🤝 Negotiation</span>
+                                    <span class="skill-percentage">88%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="--progress: 88%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="certifications-section animate-on-scroll">
+                    <header class="certifications-header">
+                        <h3 class="certifications-title">Certifications</h3>
+                        <p class="certifications-description">Professional certifications that validate my expertise</p>
+                    </header>
+                    
+                    <div class="certifications-grid">
+                        <article class="certification-card">
+                            <div class="cert-icon" aria-hidden="true">📊</div>
+                            <h4 class="cert-name">PMP - Project Management Professional</h4>
+                            <div class="cert-org">PMI</div>
+                            <div class="cert-year">2022</div>
+                        </article>
+                        
+                        <article class="certification-card">
+                            <div class="cert-icon" aria-hidden="true">⚡</div>
+                            <h4 class="cert-name">Certified ScrumMaster (CSM)</h4>
+                            <div class="cert-org">Scrum Alliance</div>
+                            <div class="cert-year">2021</div>
+                        </article>
+                        
+                        <article class="certification-card">
+                            <div class="cert-icon" aria-hidden="true">🛡️</div>
+                            <h4 class="cert-name">ITIL Foundation</h4>
+                            <div class="cert-org">AXELOS</div>
+                            <div class="cert-year">2020</div>
+                        </article>
+                        
+                        <article class="certification-card">
+                            <div class="cert-icon" aria-hidden="true">💡</div>
+                            <h4 class="cert-name">Agile Project Management</h4>
+                            <div class="cert-org">Google</div>
+                            <div class="cert-year">2023</div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects-section section" id="projects" aria-labelledby="projects-title">
+            <div class="container">
+                <header class="section-header animate-on-scroll">
+                    <span class="section-badge">Project Portfolio</span>
+                    <h2 id="projects-title" class="section-title">Transforming Ideas into Reality</h2>
+                    <p class="section-description">
+                        A showcase of successful projects that demonstrate my ability to deliver complex technical solutions 
+                        on time and within budget.
+                    </p>
+                </header>
+
+                <div class="projects-grid animate-on-scroll">
+                    <article class="project-card" data-project="1" tabindex="0" role="button">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&fit=crop" 
+                                 alt="Enterprise Cloud Migration project visualization"
+                                 loading="lazy" width="600" height="400">
+                            <div class="project-status">
+                                <span class="status-badge completed">Completed</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Enterprise Cloud Migration</h3>
+                            <p class="project-description">Led the migration of legacy systems to AWS cloud infrastructure for a Fortune 500 company.</p>
+                            <div class="project-tags">
+                                <span class="tag">AWS</span>
+                                <span class="tag">Agile</span>
+                                <span class="tag">Migration</span>
+                            </div>
+                            <div class="project-meta">
+                                <span class="meta-item">📅 18 months</span>
+                                <span class="meta-item">👥 15 members</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-project="2" tabindex="0" role="button">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" 
+                                 alt="Digital Banking Platform project visualization"
+                                 loading="lazy" width="600" height="400">
+                            <div class="project-status">
+                                <span class="status-badge completed">Completed</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Digital Banking Platform</h3>
+                            <p class="project-description">Managed the development of a modern digital banking platform with mobile-first approach.</p>
+                            <div class="project-tags">
+                                <span class="tag">FinTech</span>
+                                <span class="tag">Mobile</span>
+                                <span class="tag">Scrum</span>
+                            </div>
+                            <div class="project-meta">
+                                <span class="meta-item">📅 12 months</span>
+                                <span class="meta-item">👥 20 members</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-project="3" tabindex="0" role="button">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop" 
+                                 alt="ERP System Implementation project visualization"
+                                 loading="lazy" width="600" height="400">
+                            <div class="project-status">
+                                <span class="status-badge completed">Completed</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">ERP System Implementation</h3>
+                            <p class="project-description">Orchestrated the implementation of SAP ERP system across multiple departments and locations.</p>
+                            <div class="project-tags">
+                                <span class="tag">SAP</span>
+                                <span class="tag">ERP</span>
+                                <span class="tag">Integration</span>
+                            </div>
+                            <div class="project-meta">
+                                <span class="meta-item">📅 24 months</span>
+                                <span class="meta-item">👥 25 members</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-project="4" tabindex="0" role="button">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=600&h=400&fit=crop" 
+                                 alt="IoT Analytics Platform project visualization"
+                                 loading="lazy" width="600" height="400">
+                            <div class="project-status">
+                                <span class="status-badge in-progress">In Progress</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">IoT Analytics Platform</h3>
+                            <p class="project-description">Delivered an IoT data analytics platform for smart manufacturing operations.</p>
+                            <div class="project-tags">
+                                <span class="tag">IoT</span>
+                                <span class="tag">Analytics</span>
+                                <span class="tag">Real-time</span>
+                            </div>
+                            <div class="project-meta">
+                                <span class="meta-item">📅 15 months</span>
+                                <span class="meta-item">👥 12 members</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-project="5" tabindex="0" role="button">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1563206767-5b18f218e8de?w=600&h=400&fit=crop" 
+                                 alt="Cybersecurity Framework project visualization"
+                                 loading="lazy" width="600" height="400">
+                            <div class="project-status">
+                                <span class="status-badge completed">Completed</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Cybersecurity Framework</h3>
+                            <p class="project-description">Established comprehensive cybersecurity framework and incident response procedures.</p>
+                            <div class="project-tags">
+                                <span class="tag">Security</span>
+                                <span class="tag">Compliance</span>
+                                <span class="tag">GDPR</span>
+                            </div>
+                            <div class="project-meta">
+                                <span class="meta-item">📅 9 months</span>
+                                <span class="meta-item">👥 8 members</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-project="6" tabindex="0" role="button">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop" 
+                                 alt="AI-Powered CRM System project visualization"
+                                 loading="lazy" width="600" height="400">
+                            <div class="project-status">
+                                <span class="status-badge completed">Completed</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">AI-Powered CRM System</h3>
+                            <p class="project-description">Deployed machine learning-enhanced CRM system to improve customer relationship management.</p>
+                            <div class="project-tags">
+                                <span class="tag">AI/ML</span>
+                                <span class="tag">CRM</span>
+                                <span class="tag">Automation</span>
+                            </div>
+                            <div class="project-meta">
+                                <span class="meta-item">📅 10 months</span>
+                                <span class="meta-item">👥 14 members</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="resume-section section" id="resume" aria-labelledby="resume-title">
+            <div class="container">
+                <header class="section-header animate-on-scroll">
+                    <span class="section-badge">Resume</span>
+                    <h2 id="resume-title" class="section-title">Professional Experience</h2>
+                    <p class="section-description">
+                        Download my complete resume to learn more about my background, experience, and qualifications.
+                    </p>
+                </header>
+
+                <div class="resume-container animate-on-scroll">
+                    <h3 class="resume-heading">Rohit Sharma - IT Project Manager</h3>
+                    <p class="resume-description">
+                        Comprehensive overview of my professional experience, technical skills, certifications, 
+                        and achievements in IT project management. Includes detailed project descriptions, 
+                        leadership experience, and educational background.
+                    </p>
+                
+                    <div class="resume-details">
+                        <div class="resume-preview">
+                            <div class="resume-mockup">
+                                <div class="resume-icon" aria-hidden="true">📄</div>
+                                <div class="resume-title">Resume</div>
+                                <div class="resume-format">PDF Format</div>
+                            </div>
+                        </div>
+                        <div class="resume-content">
+                            <div class="resume-stats">
+                                <div class="stat-item">
+                                    <div class="stat-label">Experience</div>
+                                    <div class="stat-value">8+ Years</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-label">Projects</div>
+                                    <div class="stat-value">25+ Completed</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-label">Certifications</div>
+                                    <div class="stat-value">PMP, CSM, ITIL</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-label">Team Size</div>
+                                    <div class="stat-value">Up to 25 Members</div>
+                                </div>
+                            </div>
+                            
+                            <div class="resume-actions">
+                                <button class="btn btn-primary" id="downloadResume">
+                                    <span class="btn-icon" aria-hidden="true">⬇</span>
+                                    <span>Download Resume</span>
+                                </button>
+                                <button class="btn btn-outline" id="previewResume">
+                                    <span class="btn-icon" aria-hidden="true">👁️</span>
+                                    <span>Preview Resume</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="summary-stats animate-on-scroll">
+                    <div class="stat-card">
+                        <div class="stat-number">8+</div>
+                        <div class="stat-title">Years Experience</div>
+                        <div class="stat-desc">In IT Project Management</div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-number">$15M+</div>
+                        <div class="stat-title">Project Value</div>
+                        <div class="stat-desc">Successfully Delivered</div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-title">Success Rate</div>
+                        <div class="stat-desc">On-Time Delivery</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials-section section" id="testimonials" aria-labelledby="testimonials-title">
+            <div class="container">
+                <header class="section-header animate-on-scroll">
+                    <span class="section-badge">Testimonials</span>
+                    <h2 id="testimonials-title" class="section-title">What Colleagues Say</h2>
+                    <p class="section-description">
+                        Feedback from team members, stakeholders, and clients I've had the pleasure of working with.
+                    </p>
+                </header>
+
+                <div class="testimonials-grid animate-on-scroll">
+                    <article class="testimonial-card">
+                        <div class="testimonial-quote">
+                            <div class="quote-icon" aria-hidden="true">💬</div>
+                            <blockquote class="testimonial-text">
+                                "Rohit's leadership on our cloud migration project was exceptional. His attention to detail and ability to coordinate multiple teams resulted in a seamless transition that exceeded all our expectations."
+                            </blockquote>
+                        </div>
+                        
+                        <footer class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1494790108775-b2643a795f92?w=150&h=150&fit=crop&crop=face" 
+                                 alt="Sarah Johnson" 
+                                 class="author-image"
+                                 loading="lazy" width="150" height="150">
+                            
+                            <div class="author-info">
+                                <div class="author-name">Sarah Johnson</div>
+                                <div class="author-role">VP of Technology</div>
+                                <div class="author-company">TechCorp Solutions</div>
+                            </div>
+                            
+                            <div class="rating" aria-label="5 star rating">
+                                <span class="star filled" aria-hidden="true">⭐</span>
+                                <span class="star filled" aria-hidden="true">⭐</span>
+                                <span class="star filled" aria-hidden="true">⭐</span>
+                                <span class="star filled" aria-hidden="true">⭐</span>
+                                <span class="star filled" aria-hidden="true">⭐</span>
+                            </div>
+                        </footer>
+                    </article>
+
+                    <article class="testimonial-card">
+                        <div class="testimonial-quote">
+                            <div class="quote-icon" aria-hidden="true">💬</div>
+                            <blockquote class="testimonial-text">
+                                "Working with Rohit was a game-changer for our organization. His expertise in Agile methodologies and risk management helped us deliver complex projects on time and within budget consistently."
+                            </blockquote>
+                        </div>
+                        
+                        <footer class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face" 
+                                 alt="Michael Chen" 
+                                 class="author-image"
+                                 loading="lazy" width="150" height="150">
+                            
+                            <div class="author-info">
+                                <div class="author-name">Michael Chen</div>
+                                <div class="author-role">CTO</div>
+                                <div class="author-company">Innovation Labs</div>
+                            </div>
+                            
+                            <div class="rating" aria-label="5 star rating">
+                                <span class="star filled" aria-hidden="true">⭐</span>
+                                <span class="star filled" aria-hidden="true">⭐</span>
+                                <span class="star filled" aria-hidden="true">⭐</span>
+                                <span class="star filled" aria-hidden="true">⭐</span>
+                                <span class="star filled" aria-hidden="true">⭐</span>
+                            </div>
+                        </footer>
+                    </article>
+
+                    <article class="testimonial-card">
+                        <div class="testimonial-quote">
+                            <div class="quote-icon" aria-hidden="true">💬</div>
+                            <blockquote class="testimonial-text">
+                                "Rohit brings a perfect blend of technical knowledge and leadership skills. His communication style and problem-solving abilities make him an invaluable asset to any project team."
+                            </blockquote>
+                        </div>
+                        
+                        <footer class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face" 
+                                 alt="Emily Rodriguez" 
+                                 class="author-image"
+                                 loading="lazy" width="150" height="150">
+                            
+                            <div class="author-info">
+                                <div class="author-name">Emily Rodriguez</div>
+                                <div class="author-role">Head of Digital Transformation</div>
+                                <div class="author-company">Digital Systems Inc</div>
+                            </div>
+                            
+                            <div class="rating" aria-label="5 star rating">
+                                <span class="star filled" aria-hidden="true">⭐</span>
+                                <span class="star filled" aria-hidden="true">⭐</span>
+                                <span class="star filled" aria-hidden="true">⭐</span>
+                                <span class="star filled" aria-hidden="true">⭐</span>
+                                <span class="star filled" aria-hidden="true">⭐</span>
+                            </div>
+                        </footer>
+                    </article>
+
+                    <article class="testimonial-card">
+                        <div class="testimonial-quote">
+                            <div class="quote-icon" aria-hidden="true">💬</div>
+                            <blockquote class="testimonial-text">
+                                "Rohit's approach to project management is both strategic and hands-on. He understands the technical challenges developers face and provides the support needed to overcome them effectively."
+                            </blockquote>
+                        </div>
+                        
+                        <footer class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face" 
+                                 alt="David Park" 
+                                 class="author-image"
+                                 loading="lazy" width="150" height="150">
+                            
+                            <div class="author-info">
+                                <div class="author-name">David Park</div>
+                                <div class="author-role">Senior Developer</div>
+                                <div class="author-company">StartupTech</div>
+                            </div>
+                            
+                            <div class="rating" aria-label="5 star rating">
+                                <span class="star filled" aria-hidden="true">⭐</span>
+                                <span class="star filled" aria-hidden="true">⭐</span>
+                                <span class="star filled" aria-hidden="true">⭐</span>
+                                <span class="star filled" aria-hidden="true">⭐</span>
+                                <span class="star filled" aria-hidden="true">⭐</span>
+                            </div>
+                        </footer>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section section" id="contact" aria-labelledby="contact-title">
+            <div class="container">
+                <header class="section-header animate-on-scroll">
+                    <span class="section-badge">Get In Touch</span>
+                    <h2 id="contact-title" class="section-title">Let's Work Together</h2>
+                    <p class="section-description">
+                        Ready to take your next project to the next level? I'd love to hear about your challenges 
+                        and discuss how we can achieve your goals together.
+                    </p>
+                </header>
+
+                <div class="contact-content animate-on-scroll">
+                    
+                    <div class="contact-info-section">
+                        <div class="contact-info-card">
+                            <h3 class="contact-info-title">Contact Information</h3>
+                            
+                            <div class="contact-methods">
+                                <a href="mailto:rohit.sharma@email.com" class="contact-method">
+                                    <div class="contact-icon">
+                                        <span aria-hidden="true">📧</span>
+                                    </div>
+                                    <div class="contact-details">
+                                        <div class="contact-label">Email</div>
+                                        <div class="contact-value">rohit.sharma@email.com</div>
+                                    </div>
+                                a>
+                                
+                                <a href="tel:+15551234567" class="contact-method">
+                                    <div class="contact-icon">
+                                        <span aria-hidden="true">📱</span>
+                                    </div>
+                                    <div class="contact-details">
+                                        <div class="contact-label">Phone</div>
+                                        <div class="contact-value">+1 (555) 123-4567</div>
+                                    </div>
+                                </a>
+                                
+                                <div class="contact-method">
+                                    <div class="contact-icon">
+                                        <span aria-hidden="true">📍</span>
+                                    </div>
+                                    <div class="contact-details">
+                                        <div class="contact-label">Location</div>
+                                        <div class="contact-value">San Francisco, CA</div>
+                                    </div>
+                                </div>
+                                
+                                <a href="https://linkedin.com/in/rohit-sharma" class="contact-method" target="_blank" rel="noopener noreferrer">
+                                    <div class="contact-icon">
+                                        <span aria-hidden="true">🔗</span>
+                                    </div>
+                                    <div class="contact-details">
+                                        <div class="contact-label">LinkedIn</div>
+                                        <div class="contact-value">linkedin.com/in/rohit-sharma</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="availability-card">
+                            <h3 class="availability-title">Availability</h3>
+                            
+                            <div class="availability-info">
+                                <div class="availability-item">
+                                    <span class="availability-icon" aria-hidden="true">🕒</span>
+                                    <div>
+                                        <div class="availability-label">Response Time</div>
+                                        <div class="availability-value">Usually within 24 hours</div>
+                                    </div>
+                                </div>
+                                
+                                <div class="availability-item">
+                                    <span class="availability-icon" aria-hidden="true">🌍</span>
+                                    <div>
+                                        <div class="availability-label">Timezone</div>
+                                        <div class="availability-value">Pacific Standard Time (PST)</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="current-status">
+                                <div class="status-header">
+                                    <span class="status-label">Current Status</span>
+                                    <span class="status-badge available">Available for Projects</span>
+                                </div>
+                                <p class="status-description">
+                                    Open to discussing new opportunities and collaborations.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="logo" aria-label="Rohit Sharma">
+                            <span class="logo-icon">RS</span>
+                        </div>
+                        <span class="brand-name">Rohit Sharma</span>
+                    </div>
+                    
+                    <p class="footer-description">
+                        IT Project Manager specializing in delivering complex technical projects with precision and agility. 
+                        Passionate about leading teams and driving digital transformation.
+                    </p>
+                    
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/rohit-sharma" class="social-link" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <span aria-hidden="true">💼</span>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/rohit-sharma" class="social-link" title="GitHub" target="_blank" rel="noopener noreferrer">
+                            <span aria-hidden="true">🐱</span>
+                            <span class="sr-only">GitHub</span>
+                        </a>
+                        <a href="mailto:rohit.sharma@email.com" class="social-link" title="Email">
+                            <span aria-hidden="true">📧</span>
+                            <span class="sr-only">Email</span>
+                        </a>
+                        <a href="https://twitter.com/rohit_sharma" class="social-link" title="Twitter" target="_blank" rel="noopener noreferrer">
+                            <span aria-hidden="true">🐦</span>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-nav">
+                        <li><a href="#home" class="footer-link">Home</a></li>
+                        <li><a href="#about" class="footer-link">About</a></li>
+                        <li><a href="#skills" class="footer-link">Skills</a></li>
+                        <li><a href="#projects" class="footer-link">Projects</a></li>
+                        <li><a href="#resume" class="footer-link">Resume</a></li>
+                        <li><a href="#contact" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4 class="footer-heading">Get In Touch</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">📧 rohit.sharma@email.com</div>
+                        <div class="contact-item">📱 +1 (555) 123-4567</div>
+                        <div class="contact-item">📍 San Francisco, CA</div>
+                        <div class="contact-item">🕒 Available for projects</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <span>© 2024 Rohit Sharma. Built with</span>
+                    <span class="heart" aria-hidden="true">❤️</span>
+                    <span>and passion</span>
+                </div>
+
+                <div class="footer-controls">
+                    <button class="theme-toggle" id="footerThemeToggle" aria-label="Toggle dark mode" title="Toggle theme">
+                        <span class="theme-icon sun-icon" aria-hidden="true">☀️</span>
+                        <span class="theme-icon moon-icon" aria-hidden="true">🌙</span>
+                    </button>
+
+                    <button class="scroll-top" id="scrollToTop" aria-label="Scroll to top" title="Scroll to top">
+                        <span aria-hidden="true">↑</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal-overlay" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-container">
+            <div class="modal-header">
+                <h2 id="modalTitle" class="modal-title">Project Details</h2>
+                <button class="modal-close" id="modalClose" aria-label="Close modal">
+                    <span aria-hidden="true">✕</span>
+                </button>
+            </div>
+            
+            <div class="modal-content" id="modalContent">
+                </div>
+        </div>
+    </div>
+
+    <script src="portfolio.js" defer></script>
+</body>
+</html>
